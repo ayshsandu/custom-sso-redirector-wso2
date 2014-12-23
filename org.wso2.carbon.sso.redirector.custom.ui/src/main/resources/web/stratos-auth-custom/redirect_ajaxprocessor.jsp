@@ -33,7 +33,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>MConnector Identity</title>
+    <title>Custom Identity</title>
     <style type="text/css" media="screen"><!--
     body {
         color: #111111;
@@ -115,7 +115,7 @@
     SSOSessionManager.addAuthnRequest(relayState);
 
 %>
-<div class="loading-text">Loading MConnect...</div>
+<div class="loading-text">Redirecting to SSO Login...</div>
 <div class="dots-pane" id="dotsContainer">
     <div class="dots"></div>
     <div class="dots"></div>
